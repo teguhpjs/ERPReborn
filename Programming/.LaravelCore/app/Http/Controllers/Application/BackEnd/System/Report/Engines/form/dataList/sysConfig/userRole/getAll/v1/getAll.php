@@ -3,21 +3,21 @@
 /*
 +----------------------------------------------------------------------------------------------------------------------------------+
 | ▪ Category   : API Engine Controller                                                                                             |
-| ▪ Name Space : \App\Http\Controllers\Application\BackEnd\System\Report\Engines\form\dataList\sysConfig\getUserRole               |
+| ▪ Name Space : \App\Http\Controllers\Application\BackEnd\System\Report\Engines\form\dataList\sysConfig\userRole\getAll           |
 |                                                                                                                                  |
 | ▪ Copyleft 🄯 2026 Zheta (teguhpjs@gmail.com)                                                                                     |
 +----------------------------------------------------------------------------------------------------------------------------------+
 */
 
-namespace App\Http\Controllers\Application\BackEnd\System\Report\Engines\form\dataList\sysConfig\getUserRole\v1
+namespace App\Http\Controllers\Application\BackEnd\System\Report\Engines\form\dataList\sysConfig\userRole\getAll\v1
     {
     /*
     +------------------------------------------------------------------------------------------------------------------------------+
-    | ▪ Class Name  : getUserRole                                                                                                  |
-    | ▪ Description : Menangani API report.form.dataList.sysConfig.getUserRole Version 1                                           |
+    | ▪ Class Name  : getAll                                                                                                       |
+    | ▪ Description : Menangani API report.form.dataList.sysConfig.userRole Version 1                                              |
     +------------------------------------------------------------------------------------------------------------------------------+
     */
-    class getUserRole extends \App\Http\Controllers\Controller
+    class getAll extends \App\Http\Controllers\Controller
         {
         /*
         +--------------------------------------------------------------------------------------------------------------------------+
@@ -62,7 +62,7 @@ namespace App\Http\Controllers\Application\BackEnd\System\Report\Engines\form\da
             try {
                 $varSysDataProcess =
                     \App\Helpers\ZhtHelper\Logger\Helper_SystemLog::setLogOutputMethodProcessHeader($varUserSession, __CLASS__, __FUNCTION__,
-                        'Get Report Form - DataPickList - User Role (version 1)'
+                        'Get Report Form - DataPickList - User Role - All (version 1)'
                         );
 
                 try {

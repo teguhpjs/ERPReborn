@@ -4,21 +4,21 @@
 +----------------------------------------------------------------------------------------------------------------------------------+
 | ▪ Category    : Example - API Call Controller                                                                                    |
 | ▪ Name Space  : \App\Http\Controllers\Application\FrontEnd\SandBox\Examples_APICall\report\form\dataList\sysConfig               |
-|                 \getUserRoleGroup\v1                                                                                             |
-| ▪ API Key     : report.form.dataList.sysConfig.getUserRoleGroup                                                                  |
+|                 \userRoleGroup\getAll\v1                                                                                         |
+| ▪ API Key     : report.form.dataList.sysConfig.userRoleGroup.getAll                                                              |
 | ▪ API Version : 1                                                                                                                |
 |                                                                                                                                  |
 | ▪ Copyleft 🄯 2026 Zheta (teguhpjs@gmail.com)                                                                                     |
 +----------------------------------------------------------------------------------------------------------------------------------+
 */
-namespace App\Http\Controllers\Application\FrontEnd\SandBox\Examples_APICall\report\form\dataList\sysConfig\getUserRoleGroup\v1
+namespace App\Http\Controllers\Application\FrontEnd\SandBox\Examples_APICall\report\form\dataList\sysConfig\userRoleGroup\getAll\v1
     {
     class example extends \App\Http\Controllers\Controller
         {
         /*
         +--------------------------------------------------------------------------------------------------------------------------+
-        | ▪ Call URL        : http(s)://<HOST>/report.form.dataList.sysConfig.getUserRoleGroup.v1_throughAPIGateway                |
-        |                     ► http://172.28.0.4/report.form.dataList.sysConfig.getUserRoleGroup.v1_throughAPIGateway             |
+        | ▪ Call URL        : http(s)://<HOST>/report.form.dataList.sysConfig.userRoleGroup.getAll.v1_throughAPIGateway            |
+        |                     ► http://172.28.0.4/report.form.dataList.sysConfig.userRoleGroup.getAll.v1_throughAPIGateway         |
         +--------------------------------------------------------------------------------------------------------------------------+
         | ▪ Version         : 1.0000.0000000                                                                                       |
         | ▪ Last Update     : 2026-07-02                                                                                           |
@@ -39,7 +39,7 @@ namespace App\Http\Controllers\Application\FrontEnd\SandBox\Examples_APICall\rep
                     //-----[ METADATA ]-----( START )-----
                         \App\Helpers\ZhtHelper\System\Helper_Environment::getUserSessionID_System(),
                         $varAPIWebToken, 
-                        'report.form.dataList.sysConfig.getUserRoleGroup', 
+                        'report.form.dataList.sysConfig.userRoleGroup.getAll', 
                         'latest',
                     //-----[ METADATA ]-----(  END  )-----
 
